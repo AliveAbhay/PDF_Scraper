@@ -1,6 +1,6 @@
 import PyPDF2
 
-pdf_path = 'Pdf_scraper/1-s2.0-S0024320520308808-main.pdf'
+pdf_path = 'Pdf_scraper/Unknown_Hui_Potential biomedical applications of marine algae.pdf'
 
 def extract_metadata(pdf_path):
     with open(pdf_path, 'rb') as file:

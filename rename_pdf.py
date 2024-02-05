@@ -42,7 +42,7 @@ def rename_pdf(original_path, new_path, year, author, title):
     os.rename(original_path, file_path)
 
     # Construct the new full path
-    new_full_path = os.path.join(os.path.dirname(original_path), new_filename)
+    new_full_path = os.path.join(new_path, new_filename)
 
     # Rename the file back to the correct name
     os.rename(file_path, new_full_path)

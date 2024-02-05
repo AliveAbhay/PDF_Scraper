@@ -1,7 +1,7 @@
 import PyPDF2
 import re
 
-pdf_path = 'Pdf_scraper/1-s2.0-S1756464620302450-main.pdf'
+pdf_path = 'Update_pdf/2022_Kamalesh_Seaweeds, an aquatic plant-based protein for sustainable nutrition - A review.pdf'
 output_file_path = 'abstract.txt'
 
 def extract_abstract(pdf_path):

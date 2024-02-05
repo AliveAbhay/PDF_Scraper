@@ -50,7 +50,7 @@ def extract_after_references_and_save(pdf_path, keyword, output_file_path):
         print(f"'{keyword}' not found in the document.")
 
 # Example usage
-pdf_file_path = 'Pdf_scraper/1-s2.0-S0024320520308808-main.pdf'
+pdf_file_path = 'Pdf_scraper/Update_pdf/2020_Roberto_Ulcerative colitis_ Gut microbiota, immunopathogenesis and application of natural products in animal models.pdf'
 search_keyword = 'References'
 output_txt_path = 'output.txt'
 

@@ -1,6 +1,6 @@
 import PyPDF2
 
-with open('Pdf_scraper/1-s2.0-S1756464620302450-main.pdf', 'rb') as file:
+with open('Pdf_scraper/Unknown_Hui_Potential biomedical applications of marine algae.pdf', 'rb') as file:
     pdf_reader = PyPDF2.PdfReader(file)
     metadata = pdf_reader.metadata
     #print(metadata)
